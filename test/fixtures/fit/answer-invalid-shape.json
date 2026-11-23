@@ -1,0 +1,9 @@
+{
+  "requirements": [
+    { "text": "Strong TypeScript and Node.js", "status": "yes", "evidence_quote": "TypeScript" }
+  ],
+  "criteria": [],
+  "red_flags": [],
+  "recommendation": "apply",
+  "summary": "Good."
+}

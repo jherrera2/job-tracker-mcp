@@ -1,0 +1,61 @@
+{
+  "note": "Hand-written answer for --dry-run (not a model's output).",
+  "attempts": [
+    {
+      "requirements": [
+        {
+          "text": "AWS Certified Solutions Architect (required)",
+          "status": "met",
+          "evidence_quote": "certified in AWS"
+        },
+        {
+          "text": "TypeScript and Node.js",
+          "status": "met",
+          "evidence_quote": "Built a TypeScript and Node.js API that serves 3 million requests a day for clinic scheduling."
+        },
+        {
+          "text": "PostgreSQL",
+          "status": "met",
+          "evidence_quote": "Designed the PostgreSQL schema for appointments and led the move from MySQL to PostgreSQL with zero downtime."
+        },
+        {
+          "text": "Terraform",
+          "status": "partial",
+          "evidence_quote": "Terraform (basic)"
+        }
+      ],
+      "criteria": [
+        {
+          "label": "Pay floor",
+          "status": "met",
+          "reason": "$160,000 – $175,000."
+        },
+        {
+          "label": "Fully remote",
+          "status": "met",
+          "reason": "Remote (US)."
+        },
+        {
+          "label": "TypeScript stack",
+          "status": "met",
+          "reason": "TypeScript and Node.js."
+        },
+        {
+          "label": "Light on-call",
+          "status": "unclear",
+          "reason": "On-call is not mentioned."
+        },
+        {
+          "label": "Mission",
+          "status": "met",
+          "reason": "Records systems for rural hospitals."
+        }
+      ],
+      "red_flags": [
+        "The certification is required and the exam is not sponsored."
+      ],
+      "recommendation": "maybe",
+      "summary": "Good stack fit; check the AWS certification before applying."
+    }
+  ]
+}

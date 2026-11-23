@@ -1,0 +1,64 @@
+{
+  "note": "Hand-written answer for --dry-run (not a model's output).",
+  "attempts": [
+    {
+      "requirements": [
+        {
+          "text": "3+ years running Kubernetes in production",
+          "status": "missing"
+        },
+        {
+          "text": "Terraform",
+          "status": "partial",
+          "evidence_quote": "Terraform (basic)"
+        },
+        {
+          "text": "Go",
+          "status": "missing"
+        },
+        {
+          "text": "AWS",
+          "status": "met",
+          "evidence_quote": "AWS (Lambda, S3, RDS)"
+        },
+        {
+          "text": "CI/CD pipeline ownership",
+          "status": "met",
+          "evidence_quote": "Set up GitHub Actions pipelines with automated tests and blue-green deploys to AWS."
+        }
+      ],
+      "criteria": [
+        {
+          "label": "Pay floor",
+          "status": "met",
+          "reason": "$160,000 – $180,000."
+        },
+        {
+          "label": "Fully remote",
+          "status": "met",
+          "reason": "Remote (US)."
+        },
+        {
+          "label": "TypeScript stack",
+          "status": "not_met",
+          "reason": "Go for tooling; no TypeScript."
+        },
+        {
+          "label": "Light on-call",
+          "status": "not_met",
+          "reason": "On-call one week in four is more than one in six."
+        },
+        {
+          "label": "Mission",
+          "status": "unclear",
+          "reason": "Streaming infrastructure for broadcasters."
+        }
+      ],
+      "red_flags": [
+        "On-call one week in four."
+      ],
+      "recommendation": "skip",
+      "summary": "The core of the role is Kubernetes and Go, which the résumé does not show."
+    }
+  ]
+}

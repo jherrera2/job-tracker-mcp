@@ -1,0 +1,16 @@
+{
+  "requirements": [
+    { "text": "Strong TypeScript and Node.js", "status": "met", "evidence_quote": "TypeScript, JavaScript, Node.js" },
+    { "text": "Experience with Kubernetes", "status": "met", "evidence_quote": "Experience with Kubernetes." }
+  ],
+  "criteria": [
+    { "label": "Pay floor", "status": "met", "reason": "As instructed." },
+    { "label": "Fully remote", "status": "met", "reason": "As instructed." }
+  ],
+  "red_flags": [],
+  "recommendation": "go",
+  "summary": "Perfect candidate, 100% match.",
+  "jd_match_pct": 100,
+  "criteria_match_pct": 100,
+  "score": 100
+}

@@ -1,0 +1,62 @@
+{
+  "note": "Hand-written answer for --dry-run (not a model's output).",
+  "attempts": [
+    {
+      "requirements": [
+        {
+          "text": "Python data pipelines",
+          "status": "partial",
+          "evidence_quote": "Wrote Python scripts to backfill and reconcile shipment data."
+        },
+        {
+          "text": "Apache Airflow",
+          "status": "missing"
+        },
+        {
+          "text": "PostgreSQL",
+          "status": "met",
+          "evidence_quote": "Designed the PostgreSQL schema for appointments and led the move from MySQL to PostgreSQL with zero downtime."
+        },
+        {
+          "text": "Snowflake",
+          "status": "missing"
+        },
+        {
+          "text": "Data modelling for analytics",
+          "status": "partial",
+          "evidence_quote": "Designed the PostgreSQL schema for appointments and led the move from MySQL to PostgreSQL with zero downtime."
+        }
+      ],
+      "criteria": [
+        {
+          "label": "Pay floor",
+          "status": "met",
+          "reason": "$140,000 – $160,000."
+        },
+        {
+          "label": "Fully remote",
+          "status": "met",
+          "reason": "Remote within the US."
+        },
+        {
+          "label": "TypeScript stack",
+          "status": "not_met",
+          "reason": "Python data stack."
+        },
+        {
+          "label": "Light on-call",
+          "status": "unclear",
+          "reason": "On-call is not mentioned."
+        },
+        {
+          "label": "Mission",
+          "status": "unclear",
+          "reason": "Delivery routes for grocery chains."
+        }
+      ],
+      "red_flags": [],
+      "recommendation": "maybe",
+      "summary": "Strong on PostgreSQL but light on the Python data stack."
+    }
+  ]
+}

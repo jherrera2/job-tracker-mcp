@@ -1,0 +1,62 @@
+{
+  "note": "Hand-written answer for --dry-run (not a model's output).",
+  "attempts": [
+    {
+      "requirements": [
+        {
+          "text": "3+ years managing people directly",
+          "status": "missing"
+        },
+        {
+          "text": "Hiring engineers",
+          "status": "missing"
+        },
+        {
+          "text": "TypeScript or Node.js background",
+          "status": "met",
+          "evidence_quote": "Built a TypeScript and Node.js API that serves 3 million requests a day for clinic scheduling."
+        },
+        {
+          "text": "Coaching and mentoring",
+          "status": "met",
+          "evidence_quote": "Mentored four junior engineers through their first production launches."
+        },
+        {
+          "text": "Partnering with product on the roadmap",
+          "status": "partial",
+          "evidence_quote": "Tech lead for a three-person API team: ran design reviews and sprint planning."
+        }
+      ],
+      "criteria": [
+        {
+          "label": "Pay floor",
+          "status": "met",
+          "reason": "$175,000 – $195,000."
+        },
+        {
+          "label": "Fully remote",
+          "status": "met",
+          "reason": "Remote (US)."
+        },
+        {
+          "label": "TypeScript stack",
+          "status": "met",
+          "reason": "A TypeScript background is asked for."
+        },
+        {
+          "label": "Light on-call",
+          "status": "unclear",
+          "reason": "On-call is not mentioned."
+        },
+        {
+          "label": "Mission",
+          "status": "met",
+          "reason": "Telehealth for physiotherapy."
+        }
+      ],
+      "red_flags": [],
+      "recommendation": "skip",
+      "summary": "A people-manager role; the résumé says it has never managed people directly."
+    }
+  ]
+}

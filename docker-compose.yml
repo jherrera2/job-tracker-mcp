@@ -1,0 +1,26 @@
+# Local Postgres for development and integration tests.
+#   docker compose up -d      start it (data survives restarts in the "pgdata" volume)
+#   docker compose down       stop it (add -v to also delete the data)
+# Values come from .env when present, otherwise the dev defaults after ":-".
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-jobsearch}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-jobsearch}
+      POSTGRES_DB: ${POSTGRES_DB:-jobsearch}
+    ports:
+      # Bound to 127.0.0.1 only, so the database isn't reachable from other machines.
+      - "127.0.0.1:${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # Scripts here run once, on first start, and create the separate jobsearch_test database.
+      - ./docker/postgres-init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  pgdata:

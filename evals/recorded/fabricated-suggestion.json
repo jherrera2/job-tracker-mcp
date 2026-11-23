@@ -1,0 +1,43 @@
+{
+  "note": "Hand-written answer for --dry-run (not a model's output). The Terraform suggestion's quote is invented (not in the résumé): save_fit must drop the suggestion and keep the requirement partial. The tech-lead suggestion is grounded and kept.",
+  "attempts": [
+    {
+      "requirements": [
+        {
+          "text": "Node.js services at scale",
+          "status": "met",
+          "evidence_quote": "Wrote Node.js services for shipment tracking, processing 40,000 carrier updates an hour."
+        },
+        {
+          "text": "Terraform-managed AWS infrastructure",
+          "status": "partial",
+          "evidence_quote": "Terraform (basic)",
+          "make_explicit": "State that you wrote the Terraform modules for every AWS deploy.",
+          "make_explicit_quote": "Wrote Terraform modules for every AWS deploy."
+        },
+        {
+          "text": "Leading a small engineering team",
+          "status": "partial",
+          "evidence_quote": "Tech lead for a three-person API team",
+          "make_explicit": "Spell out that as tech lead you ran design reviews and sprint planning.",
+          "make_explicit_quote": "ran design reviews and sprint planning"
+        },
+        {
+          "text": "Incident response and on-call",
+          "status": "partial",
+          "evidence_quote": "Joined the on-call rotation for the tracking platform (one week in six)."
+        }
+      ],
+      "criteria": [
+        { "label": "Pay floor", "status": "met", "reason": "$140,000 – $155,000 reaches the floor." },
+        { "label": "Fully remote", "status": "met", "reason": "Remote (US)." },
+        { "label": "TypeScript stack", "status": "unclear", "reason": "Node.js is named; TypeScript is not." },
+        { "label": "Light on-call", "status": "not_met", "reason": "One week in four is heavier than one in six." },
+        { "label": "Mission", "status": "unclear", "reason": "Freight routing software." }
+      ],
+      "red_flags": ["On-call is one week in four."],
+      "recommendation": "maybe",
+      "summary": "A reasonable stack match held back by heavy on-call and thin Terraform experience."
+    }
+  ]
+}

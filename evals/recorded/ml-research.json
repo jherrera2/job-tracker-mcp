@@ -1,0 +1,61 @@
+{
+  "note": "Hand-written answer for --dry-run (not a model's output).",
+  "attempts": [
+    {
+      "requirements": [
+        {
+          "text": "PhD in machine learning or related",
+          "status": "missing"
+        },
+        {
+          "text": "Deep PyTorch experience",
+          "status": "missing"
+        },
+        {
+          "text": "First-author publications",
+          "status": "missing"
+        },
+        {
+          "text": "Strong Python",
+          "status": "partial",
+          "evidence_quote": "Wrote Python scripts to backfill and reconcile shipment data."
+        },
+        {
+          "text": "Designing evaluations for large models",
+          "status": "partial",
+          "evidence_quote": "Shipped an LLM-based appointment-notes summarizer with an offline eval suite and prompt-injection tests."
+        }
+      ],
+      "criteria": [
+        {
+          "label": "Pay floor",
+          "status": "met",
+          "reason": "$200,000 – $240,000 base."
+        },
+        {
+          "label": "Fully remote",
+          "status": "not_met",
+          "reason": "Hybrid, three days a week in San Francisco."
+        },
+        {
+          "label": "TypeScript stack",
+          "status": "not_met",
+          "reason": "Python and PyTorch, not TypeScript."
+        },
+        {
+          "label": "Light on-call",
+          "status": "unclear",
+          "reason": "On-call is not mentioned."
+        },
+        {
+          "label": "Mission",
+          "status": "unclear",
+          "reason": "Robot learning; no clear people-helping mission."
+        }
+      ],
+      "red_flags": [],
+      "recommendation": "skip",
+      "summary": "A research role that needs a PhD and publications the résumé does not show."
+    }
+  ]
+}

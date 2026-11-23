@@ -1,0 +1,28 @@
+// Type-checking settings for the whole repo (source + tests).
+// `npm run typecheck` uses this file; `npm run build` uses tsconfig.build.json (source only).
+{
+  "compilerOptions": {
+    // Modern Node: native ES modules. "nodenext" means relative imports must end in ".js"
+    // (e.g. `import { x } from "./config.js"`) even though the file on disk is config.ts.
+    // That is how Node finds the compiled file at runtime.
+    // es2024: Node 24 supports all of it, and it brings String.isWellFormed() (used in src/domain/master-resume.ts).
+    "target": "es2024",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "types": ["node"],
+
+    // Strictness: roughly "nullable reference types + warnings as errors" in C# terms.
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "verbatimModuleSyntax": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    "rootDir": ".",
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "include": ["src", "test", "evals", "vitest.config.ts"]
+}

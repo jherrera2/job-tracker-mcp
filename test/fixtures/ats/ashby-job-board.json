@@ -1,0 +1,85 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "8a7b6c5d-1e2f-4a3b-9c8d-7e6f5a4b3c2d",
+      "title": "Product Designer",
+      "department": "Engineering",
+      "team": "Backend",
+      "employmentType": "FullTime",
+      "location": "Denver, CO",
+      "secondaryLocations": [
+        {
+          "location": "Remote (US)",
+          "address": {
+            "postalAddress": {
+              "addressCountry": "United States"
+            }
+          }
+        }
+      ],
+      "publishedAt": "2026-10-15T17:00:00.000+00:00",
+      "isListed": true,
+      "isRemote": true,
+      "workplaceType": "Hybrid",
+      "address": {
+        "postalAddress": {
+          "addressRegion": "CO",
+          "addressCountry": "USA",
+          "addressLocality": "Denver"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/lumenworks/8a7b6c5d-1e2f-4a3b-9c8d-7e6f5a4b3c2d",
+      "applyUrl": "https://jobs.ashbyhq.com/lumenworks/8a7b6c5d-1e2f-4a3b-9c8d-7e6f5a4b3c2d/application",
+      "descriptionHtml": "<p>Lumenworks makes lighting design software.</p><p>Design our editor.</p>",
+      "descriptionPlain": "Lumenworks makes lighting design software.\nDesign our editor.",
+      "shouldDisplayCompensationOnJobPostings": false,
+      "compensation": {
+        "compensationTierSummary": null,
+        "scrapeableCompensationSalarySummary": null,
+        "compensationTiers": [],
+        "summaryComponents": []
+      }
+    },
+    {
+      "id": "2b3c4d5e-6f70-4812-9a3b-4c5d6e7f8091",
+      "title": "Staff Backend Engineer",
+      "department": "Engineering",
+      "team": "Backend",
+      "employmentType": "FullTime",
+      "location": "Denver, CO (HQ)",
+      "secondaryLocations": [
+        {
+          "location": "Remote (US)",
+          "address": {
+            "postalAddress": {
+              "addressCountry": "United States"
+            }
+          }
+        }
+      ],
+      "publishedAt": "2026-10-15T17:00:00.000+00:00",
+      "isListed": true,
+      "isRemote": true,
+      "workplaceType": "Hybrid",
+      "address": {
+        "postalAddress": {
+          "addressRegion": "CO",
+          "addressCountry": "USA",
+          "addressLocality": "Denver"
+        }
+      },
+      "jobUrl": "https://jobs.ashbyhq.com/lumenworks/2b3c4d5e-6f70-4812-9a3b-4c5d6e7f8091",
+      "applyUrl": "https://jobs.ashbyhq.com/lumenworks/2b3c4d5e-6f70-4812-9a3b-4c5d6e7f8091/application",
+      "descriptionHtml": "<p>Lumenworks makes lighting design software.</p><p></p><p>You will lead our API platform in TypeScript.</p><p>Requirements: 8+ years, Postgres, MCP a plus.</p>",
+      "descriptionPlain": "Lumenworks makes lighting design software.\n\nYou will lead our API platform in TypeScript.\nRequirements: 8+ years, Postgres, MCP a plus.",
+      "shouldDisplayCompensationOnJobPostings": true,
+      "compensation": {
+        "compensationTierSummary": "$190K – $230K • Offers Equity",
+        "scrapeableCompensationSalarySummary": "$190K – $230K",
+        "compensationTiers": [],
+        "summaryComponents": []
+      }
+    }
+  ]
+}

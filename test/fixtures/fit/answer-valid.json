@@ -1,0 +1,15 @@
+{
+  "requirements": [
+    { "text": "Strong TypeScript and Node.js", "status": "met", "evidence_quote": "Built a TypeScript and Node.js API serving 2 million requests a day for the patient-scheduling product." },
+    { "text": "Production PostgreSQL experience", "status": "met", "evidence_quote": "Led the migration from MySQL to PostgreSQL with zero downtime." },
+    { "text": "Mentor other engineers", "status": "partial", "evidence_quote": "Mentored four junior engineers" },
+    { "text": "Experience with Kubernetes", "status": "missing" }
+  ],
+  "criteria": [
+    { "label": "Pay floor", "status": "unclear", "reason": "The range starts below the floor but tops out above it." },
+    { "label": "Fully remote", "status": "met", "reason": "The posting says fully remote in the US." }
+  ],
+  "red_flags": [],
+  "recommendation": "go",
+  "summary": "A strong match on the core stack; Kubernetes is the one gap."
+}

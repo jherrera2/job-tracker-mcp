@@ -1,0 +1,43 @@
+{
+  "note": "Hand-written answer for --dry-run (not a model's output). Two partial requirements carry make_explicit suggestions grounded in the résumé; the Terraform one has no grounding fact, so it has none.",
+  "attempts": [
+    {
+      "requirements": [
+        {
+          "text": "Strong TypeScript and Node.js",
+          "status": "met",
+          "evidence_quote": "Built a TypeScript and Node.js API that serves 3 million requests a day for clinic scheduling."
+        },
+        {
+          "text": "Evaluating LLM output quality",
+          "status": "partial",
+          "evidence_quote": "Shipped an LLM-based appointment-notes summarizer",
+          "make_explicit": "Say plainly that the summarizer shipped with an offline eval suite and prompt-injection tests.",
+          "make_explicit_quote": "with an offline eval suite and prompt-injection tests"
+        },
+        {
+          "text": "GraphQL API design",
+          "status": "partial",
+          "evidence_quote": "Built REST and GraphQL APIs consumed by a React dashboard",
+          "make_explicit": "Add GraphQL to the Skills list; you built GraphQL APIs at Otterbrook Freight.",
+          "make_explicit_quote": "Built REST and GraphQL APIs consumed by a React dashboard"
+        },
+        {
+          "text": "Terraform for AWS infrastructure",
+          "status": "partial",
+          "evidence_quote": "Terraform (basic)"
+        }
+      ],
+      "criteria": [
+        { "label": "Pay floor", "status": "met", "reason": "$160,000 – $180,000 base is above the floor." },
+        { "label": "Fully remote", "status": "met", "reason": "Fully remote in the US." },
+        { "label": "TypeScript stack", "status": "met", "reason": "TypeScript and Node.js." },
+        { "label": "Light on-call", "status": "met", "reason": "One week in eight." },
+        { "label": "Mission", "status": "met", "reason": "Visit-summary tools for home-health nurses." }
+      ],
+      "red_flags": [],
+      "recommendation": "maybe",
+      "summary": "Every criterion is met; the résumé undersells its LLM eval and GraphQL work."
+    }
+  ]
+}

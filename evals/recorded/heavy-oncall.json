@@ -1,0 +1,66 @@
+{
+  "note": "Hand-written answer for --dry-run (not a model's output).",
+  "attempts": [
+    {
+      "requirements": [
+        {
+          "text": "Node.js services in production",
+          "status": "met",
+          "evidence_quote": "Wrote Node.js services for shipment tracking, processing 40,000 carrier updates an hour."
+        },
+        {
+          "text": "TypeScript",
+          "status": "met",
+          "evidence_quote": "Built a TypeScript and Node.js API that serves 3 million requests a day for clinic scheduling."
+        },
+        {
+          "text": "PostgreSQL",
+          "status": "met",
+          "evidence_quote": "Designed the PostgreSQL schema for appointments and led the move from MySQL to PostgreSQL with zero downtime."
+        },
+        {
+          "text": "Incident response",
+          "status": "partial",
+          "evidence_quote": "Joined the on-call rotation for the tracking platform (one week in six)."
+        },
+        {
+          "text": "Redis",
+          "status": "met",
+          "evidence_quote": "Cut p95 API latency from 900 ms to 180 ms by adding query indexes and a Redis cache."
+        }
+      ],
+      "criteria": [
+        {
+          "label": "Pay floor",
+          "status": "met",
+          "reason": "$175,000 base."
+        },
+        {
+          "label": "Fully remote",
+          "status": "met",
+          "reason": "Remote (US)."
+        },
+        {
+          "label": "TypeScript stack",
+          "status": "met",
+          "reason": "Node.js and TypeScript."
+        },
+        {
+          "label": "Light on-call",
+          "status": "not_met",
+          "reason": "24/7 pager every other week."
+        },
+        {
+          "label": "Mission",
+          "status": "unclear",
+          "reason": "Payments for small online shops."
+        }
+      ],
+      "red_flags": [
+        "24/7 pager every other week, incidents past midnight."
+      ],
+      "recommendation": "maybe",
+      "summary": "A strong technical match, but the on-call load breaks a top criterion."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+coverage/
+*.log
+.DS_Store
+# Eval results are per run; only the committed example stays in git.
+evals/results/*
+!evals/results/example.json
+!evals/results/example.md

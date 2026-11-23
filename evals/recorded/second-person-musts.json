@@ -1,0 +1,57 @@
+{
+  "note": "Hand-written answer for --dry-run (not a model's output).",
+  "attempts": [
+    {
+      "requirements": [
+        {
+          "text": "5+ years building Node.js and TypeScript services",
+          "status": "met",
+          "evidence_quote": "Backend engineer with 8 years of experience building TypeScript and Node.js services"
+        },
+        {
+          "text": "PostgreSQL in production",
+          "status": "met",
+          "evidence_quote": "Designed the PostgreSQL schema for appointments and led the move from MySQL to PostgreSQL with zero downtime."
+        },
+        {
+          "text": "REST API design",
+          "status": "met",
+          "evidence_quote": "Built REST and GraphQL APIs consumed by a React dashboard"
+        }
+      ],
+      "criteria": [
+        {
+          "label": "Pay floor",
+          "status": "met",
+          "reason": "$160,000 – $175,000 is above the $140,000 floor."
+        },
+        {
+          "label": "Fully remote",
+          "status": "not_met",
+          "reason": "You must relocate to Austin; on site four days a week."
+        },
+        {
+          "label": "TypeScript stack",
+          "status": "met",
+          "reason": "Built on Node.js and TypeScript."
+        },
+        {
+          "label": "Light on-call",
+          "status": "not_met",
+          "reason": "On call one week in four, more than one in six."
+        },
+        {
+          "label": "Mission",
+          "status": "met",
+          "reason": "Reading apps for primary schools: education."
+        }
+      ],
+      "red_flags": [
+        "Requires relocating to Austin and working on site four days a week.",
+        "No visa sponsorship."
+      ],
+      "recommendation": "skip",
+      "summary": "A strong skills match, but on site in Austin and on call one week in four break two top criteria."
+    }
+  ]
+}

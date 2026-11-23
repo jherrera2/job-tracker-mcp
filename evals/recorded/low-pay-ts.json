@@ -1,0 +1,61 @@
+{
+  "note": "Hand-written answer for --dry-run (not a model's output).",
+  "attempts": [
+    {
+      "requirements": [
+        {
+          "text": "4+ years of backend experience",
+          "status": "met",
+          "evidence_quote": "Backend engineer with 8 years of experience building TypeScript and Node.js services"
+        },
+        {
+          "text": "TypeScript and Node.js",
+          "status": "met",
+          "evidence_quote": "Built a TypeScript and Node.js API that serves 3 million requests a day for clinic scheduling."
+        },
+        {
+          "text": "PostgreSQL",
+          "status": "met",
+          "evidence_quote": "Designed the PostgreSQL schema for appointments and led the move from MySQL to PostgreSQL with zero downtime."
+        },
+        {
+          "text": "Automated testing and CI",
+          "status": "met",
+          "evidence_quote": "Set up GitHub Actions pipelines with automated tests and blue-green deploys to AWS."
+        }
+      ],
+      "criteria": [
+        {
+          "label": "Pay floor",
+          "status": "not_met",
+          "reason": "$110,000 – $125,000 is below the $140,000 floor."
+        },
+        {
+          "label": "Fully remote",
+          "status": "met",
+          "reason": "Fully remote (US)."
+        },
+        {
+          "label": "TypeScript stack",
+          "status": "met",
+          "reason": "TypeScript and Node.js."
+        },
+        {
+          "label": "Light on-call",
+          "status": "met",
+          "reason": "No on-call."
+        },
+        {
+          "label": "Mission",
+          "status": "met",
+          "reason": "Tutoring adults learning to read."
+        }
+      ],
+      "red_flags": [
+        "Pay is $15,000 or more below the floor."
+      ],
+      "recommendation": "maybe",
+      "summary": "A great technical and mission fit, but the pay is well below the floor."
+    }
+  ]
+}

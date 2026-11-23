@@ -1,0 +1,64 @@
+{
+  "note": "Hand-written answer for --dry-run (not a model's output).",
+  "attempts": [
+    {
+      "requirements": [
+        {
+          "text": "4+ years of professional React",
+          "status": "partial",
+          "evidence_quote": "React (working knowledge)"
+        },
+        {
+          "text": "TypeScript front end and back end",
+          "status": "met",
+          "evidence_quote": "Built a TypeScript and Node.js API that serves 3 million requests a day for clinic scheduling."
+        },
+        {
+          "text": "Building Node.js APIs",
+          "status": "met",
+          "evidence_quote": "Wrote Node.js services for shipment tracking, processing 40,000 carrier updates an hour."
+        },
+        {
+          "text": "Design systems and accessibility (WCAG 2.2)",
+          "status": "missing"
+        },
+        {
+          "text": "Next.js in production",
+          "status": "missing"
+        }
+      ],
+      "criteria": [
+        {
+          "label": "Pay floor",
+          "status": "met",
+          "reason": "$140,000 – $155,000 meets the floor."
+        },
+        {
+          "label": "Fully remote",
+          "status": "met",
+          "reason": "Remote (US)."
+        },
+        {
+          "label": "TypeScript stack",
+          "status": "met",
+          "reason": "TypeScript across the stack."
+        },
+        {
+          "label": "Light on-call",
+          "status": "unclear",
+          "reason": "Only occasional weekend support during sales is mentioned."
+        },
+        {
+          "label": "Mission",
+          "status": "not_met",
+          "reason": "An online home-goods store."
+        }
+      ],
+      "red_flags": [
+        "Weekend support during holiday sales."
+      ],
+      "recommendation": "maybe",
+      "summary": "The back end fits, but the role is front-end heavy and React is only working knowledge."
+    }
+  ]
+}

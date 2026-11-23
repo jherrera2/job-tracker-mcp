@@ -1,0 +1,64 @@
+{
+  "note": "Hand-written answer for --dry-run (not a model's output).",
+  "attempts": [
+    {
+      "requirements": [
+        {
+          "text": "5+ years of backend engineering",
+          "status": "met",
+          "evidence_quote": "Backend engineer with 8 years of experience building TypeScript and Node.js services"
+        },
+        {
+          "text": "Strong TypeScript and Node.js",
+          "status": "met",
+          "evidence_quote": "Built a TypeScript and Node.js API that serves 3 million requests a day for clinic scheduling."
+        },
+        {
+          "text": "Production PostgreSQL",
+          "status": "met",
+          "evidence_quote": "Designed the PostgreSQL schema for appointments and led the move from MySQL to PostgreSQL with zero downtime."
+        },
+        {
+          "text": "Building CI/CD pipelines",
+          "status": "met",
+          "evidence_quote": "Set up GitHub Actions pipelines with automated tests and blue-green deploys to AWS."
+        },
+        {
+          "text": "Mentoring engineers",
+          "status": "met",
+          "evidence_quote": "Mentored four junior engineers through their first production launches."
+        }
+      ],
+      "criteria": [
+        {
+          "label": "Pay floor",
+          "status": "met",
+          "reason": "$165,000 – $185,000 base is above the $140,000 floor."
+        },
+        {
+          "label": "Fully remote",
+          "status": "met",
+          "reason": "Fully remote in the US."
+        },
+        {
+          "label": "TypeScript stack",
+          "status": "met",
+          "reason": "TypeScript services on Node.js."
+        },
+        {
+          "label": "Light on-call",
+          "status": "met",
+          "reason": "One week in eight, lighter than one in six."
+        },
+        {
+          "label": "Mission",
+          "status": "met",
+          "reason": "Patient-intake software for community clinics."
+        }
+      ],
+      "red_flags": [],
+      "recommendation": "go",
+      "summary": "A strong match on stack, level and every criterion."
+    }
+  ]
+}

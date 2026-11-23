@@ -1,0 +1,109 @@
+{
+  "note": "Hand-written answer for --dry-run (not a model's output).",
+  "attempts": [
+    {
+      "requirements": [
+        {
+          "text": "Swift",
+          "status": "missing"
+        },
+        {
+          "text": "SwiftUI",
+          "status": "missing"
+        },
+        {
+          "text": "Shipping to the App Store",
+          "status": "missing"
+        },
+        {
+          "text": "Working with REST APIs",
+          "status": "yes",
+          "evidence_quote": "Built REST and GraphQL APIs consumed by a React dashboard; contributed React components when needed."
+        }
+      ],
+      "criteria": [
+        {
+          "label": "Pay floor",
+          "status": "unclear",
+          "reason": "Only 'competitive salary'."
+        },
+        {
+          "label": "Fully remote",
+          "status": "met",
+          "reason": "Remote (US)."
+        },
+        {
+          "label": "TypeScript stack",
+          "status": "not_met",
+          "reason": "Swift, not TypeScript."
+        },
+        {
+          "label": "Light on-call",
+          "status": "unclear",
+          "reason": "On-call is not mentioned."
+        },
+        {
+          "label": "Mission",
+          "status": "unclear",
+          "reason": "Puzzle games."
+        }
+      ],
+      "red_flags": [],
+      "recommendation": "skip",
+      "summary": "An iOS role; the résumé has no Swift."
+    },
+    {
+      "requirements": [
+        {
+          "text": "Swift",
+          "status": "missing"
+        },
+        {
+          "text": "SwiftUI",
+          "status": "missing"
+        },
+        {
+          "text": "Shipping to the App Store",
+          "status": "missing"
+        },
+        {
+          "text": "Working with REST APIs",
+          "status": "met",
+          "evidence_quote": "Built REST and GraphQL APIs consumed by a React dashboard; contributed React components when needed."
+        }
+      ],
+      "criteria": [
+        {
+          "label": "Pay floor",
+          "status": "unclear",
+          "reason": "Only 'competitive salary'."
+        },
+        {
+          "label": "Fully remote",
+          "status": "met",
+          "reason": "Remote (US)."
+        },
+        {
+          "label": "TypeScript stack",
+          "status": "not_met",
+          "reason": "Swift, not TypeScript."
+        },
+        {
+          "label": "Light on-call",
+          "status": "unclear",
+          "reason": "On-call is not mentioned."
+        },
+        {
+          "label": "Mission",
+          "status": "unclear",
+          "reason": "Puzzle games."
+        }
+      ],
+      "red_flags": [
+        "Pay is not given."
+      ],
+      "recommendation": "skip",
+      "summary": "An iOS role; the résumé has no Swift."
+    }
+  ]
+}

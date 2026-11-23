@@ -1,0 +1,29 @@
+{
+  "requirements": [
+    { "text": "Strong TypeScript and Node.js", "status": "met", "evidence_quote": "Built a TypeScript and Node.js API serving 2 million requests a day" },
+    {
+      "text": "Mentor other engineers",
+      "status": "partial",
+      "evidence_quote": "Mentored four junior engineers",
+      "make_explicit": "Say plainly that you mentored four junior engineers through weekly code reviews.",
+      "make_explicit_quote": "Mentored four junior engineers through weekly code reviews."
+    },
+    {
+      "text": "Production PostgreSQL experience",
+      "status": "partial",
+      "evidence_quote": "Led the migration from MySQL to PostgreSQL with zero downtime.",
+      "make_explicit": "State that you tuned PostgreSQL query plans for the scheduling API.",
+      "make_explicit_quote": "Tuned PostgreSQL query plans for the scheduling API."
+    },
+    { "text": "Experience with Kubernetes", "status": "missing" },
+    { "text": "CI/CD for many services", "status": "partial", "evidence_quote": "Set up CI/CD pipelines in GitHub Actions for twelve services." }
+  ],
+  "criteria": [
+    { "label": "Pay floor", "status": "unclear", "reason": "The range starts below the floor but tops out above it." },
+    { "label": "Fully remote", "status": "met", "reason": "The posting says fully remote in the US." }
+  ],
+  "red_flags": [],
+  "recommendation": "maybe",
+  "summary": "Close on the core stack; mentoring is the easiest gap to close on the résumé.",
+  "strict_jd_match_pct": 100
+}

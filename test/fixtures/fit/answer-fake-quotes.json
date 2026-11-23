@@ -1,0 +1,14 @@
+{
+  "requirements": [
+    { "text": "Strong TypeScript and Node.js", "status": "met", "evidence_quote": "Built a TypeScript and Node.js API serving 2 million requests a day for the patient-scheduling product." },
+    { "text": "Experience with Kubernetes", "status": "met", "evidence_quote": "Ran production Kubernetes clusters for five years." },
+    { "text": "5+ years of backend experience", "status": "partial", "evidence_quote": "Led the migration from MySQL to PostgreSQL with no downtime." }
+  ],
+  "criteria": [
+    { "label": "Pay floor", "status": "met", "reason": "The range reaches the floor." },
+    { "label": "Fully remote", "status": "met", "reason": "Fully remote in the US." }
+  ],
+  "red_flags": [],
+  "recommendation": "go",
+  "summary": "Looks like a fit."
+}

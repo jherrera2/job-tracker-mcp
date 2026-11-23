@@ -1,0 +1,44 @@
+{
+  "additional": "<div>Northwind Labs is an equal opportunity employer.</div>",
+  "additionalPlain": "Northwind Labs is an equal opportunity employer.",
+  "applyUrl": "https://jobs.lever.co/northwindlabs/5f1c2d3e-4b5a-4c6d-8e7f-90a1b2c3d4e5/apply",
+  "categories": {
+    "commitment": "Full-time",
+    "location": "Austin, TX",
+    "team": "Engineering",
+    "allLocations": [
+      "Austin, TX",
+      "Remote - US"
+    ]
+  },
+  "country": "US",
+  "createdAt": 1793000000000,
+  "description": "<div>Northwind Labs makes inventory software for bakeries.</div>",
+  "descriptionBody": "<div>Northwind Labs makes inventory software for bakeries.</div>",
+  "descriptionBodyPlain": "Northwind Labs makes inventory software for bakeries.",
+  "descriptionPlain": "Northwind Labs makes inventory software for bakeries.\n \nYou will own our data pipeline.",
+  "hostedUrl": "https://jobs.lever.co/northwindlabs/5f1c2d3e-4b5a-4c6d-8e7f-90a1b2c3d4e5",
+  "id": "5f1c2d3e-4b5a-4c6d-8e7f-90a1b2c3d4e5",
+  "lists": [
+    {
+      "text": "What you'll do",
+      "content": "<li>Design Postgres schemas</li><li>Write Node &amp; TypeScript services</li>"
+    },
+    {
+      "text": "About you",
+      "content": "<li>4+ years building APIs</li>"
+    }
+  ],
+  "opening": "",
+  "openingPlain": "",
+  "salaryDescription": "<div>Plus equity.</div>",
+  "salaryDescriptionPlain": "Plus equity.",
+  "salaryRange": {
+    "currency": "USD",
+    "interval": "per-year-salary",
+    "min": 140000,
+    "max": 170000
+  },
+  "text": "Data Engineer",
+  "workplaceType": "hybrid"
+}

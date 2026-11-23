@@ -1,0 +1,66 @@
+{
+  "note": "Hand-written answer for --dry-run (not a model's output).",
+  "attempts": [
+    {
+      "requirements": [
+        {
+          "text": "8+ years of software engineering",
+          "status": "met",
+          "evidence_quote": "Backend engineer with 8 years of experience building TypeScript and Node.js services"
+        },
+        {
+          "text": "TypeScript on high-traffic services",
+          "status": "met",
+          "evidence_quote": "Built a TypeScript and Node.js API that serves 3 million requests a day for clinic scheduling."
+        },
+        {
+          "text": "PostgreSQL performance tuning",
+          "status": "met",
+          "evidence_quote": "Cut p95 API latency from 900 ms to 180 ms by adding query indexes and a Redis cache."
+        },
+        {
+          "text": "Technical leadership across several teams",
+          "status": "partial",
+          "evidence_quote": "Tech lead for a three-person API team: ran design reviews and sprint planning."
+        },
+        {
+          "text": "Mentoring and growing engineers",
+          "status": "met",
+          "evidence_quote": "Mentored four junior engineers through their first production launches."
+        }
+      ],
+      "criteria": [
+        {
+          "label": "Pay floor",
+          "status": "met",
+          "reason": "$185,000 – $210,000 base."
+        },
+        {
+          "label": "Fully remote",
+          "status": "met",
+          "reason": "Remote anywhere in the US."
+        },
+        {
+          "label": "TypeScript stack",
+          "status": "met",
+          "reason": "Deep TypeScript is the core requirement."
+        },
+        {
+          "label": "Light on-call",
+          "status": "unclear",
+          "reason": "On-call is shared but the rotation is not given."
+        },
+        {
+          "label": "Mission",
+          "status": "met",
+          "reason": "Free reading tools for primary schools."
+        }
+      ],
+      "red_flags": [
+        "The on-call rotation is not stated."
+      ],
+      "recommendation": "go",
+      "summary": "A good match; leadership across several teams is a stretch from leading one team."
+    }
+  ]
+}

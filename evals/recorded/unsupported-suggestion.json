@@ -1,0 +1,40 @@
+{
+  "note": "Hand-written answer for --dry-run (not a model's output). KNOWN LIMIT, recorded on purpose: the suggestion 'Say you led 12 engineers.' is invented and does not follow from its quote, but the quote 'Tech lead for a three-person API team' is real (3+ words, 15+ characters), so save_fit KEEPS the suggestion. The server checks that the quote exists word for word, not that the suggestion follows from it.",
+  "attempts": [
+    {
+      "requirements": [
+        {
+          "text": "TypeScript and Node.js services",
+          "status": "met",
+          "evidence_quote": "Built a TypeScript and Node.js API that serves 3 million requests a day for clinic scheduling."
+        },
+        {
+          "text": "Leading a team of 10 or more engineers",
+          "status": "partial",
+          "evidence_quote": "Tech lead for a three-person API team",
+          "make_explicit": "Say you led 12 engineers.",
+          "make_explicit_quote": "Tech lead for a three-person API team"
+        },
+        {
+          "text": "Hiring and performance reviews",
+          "status": "missing"
+        },
+        {
+          "text": "PostgreSQL data modelling",
+          "status": "met",
+          "evidence_quote": "Designed the PostgreSQL schema for appointments and led the move from MySQL to PostgreSQL with zero downtime."
+        }
+      ],
+      "criteria": [
+        { "label": "Pay floor", "status": "met", "reason": "$175,000 – $195,000 base." },
+        { "label": "Fully remote", "status": "met", "reason": "Remote (US)." },
+        { "label": "TypeScript stack", "status": "met", "reason": "TypeScript and Node.js." },
+        { "label": "Light on-call", "status": "met", "reason": "One week in six." },
+        { "label": "Mission", "status": "unclear", "reason": "Booking software for dental practices." }
+      ],
+      "red_flags": [],
+      "recommendation": "maybe",
+      "summary": "Strong stack match, but the role leads a much larger team than the résumé shows."
+    }
+  ]
+}
