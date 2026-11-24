@@ -204,7 +204,7 @@ Built with AI agents, one step at a time, from a written PRD ([`docs/prd/PRD_01_
 3. A **GitHub Copilot review**, or from step 6 on (when Copilot review was unavailable) an **independent no-context reviewer agent**. Findings go back to the builder.
 4. Merge once the tester passes, review findings are fixed and CI is green.
 
-Every choice the PRD didn't make is written down with its reason in [`DECISIONS.md`](DECISIONS.md). Tokens and time per step are in [`docs/build-log.md`](docs/build-log.md): **46,591,834 agent tokens for steps 1–9** (step 10 not yet logged). Cost was computed only for steps 1–3 (**$29.29** at API list prices); from step 4 the agents reported token totals without the input / output / cache split, so cost for later steps is **not computed**.
+The four choices that shaped the design have Architecture Decision Records in [`docs/adr/`](docs/adr/README.md): who writes the fit check, stdio vs HTTP, which job links are fetched, and why code computes the scores. Every choice the PRD didn't make is written down with its reason in [`DECISIONS.md`](DECISIONS.md). Tokens and time per step are in [`docs/build-log.md`](docs/build-log.md): **46,591,834 agent tokens for steps 1–9** (step 10 not yet logged). Cost was computed only for steps 1–3 (**$29.29** at API list prices); from step 4 the agents reported token totals without the input / output / cache split, so cost for later steps is **not computed**.
 
 ## License
 
