@@ -4,7 +4,7 @@ A local [MCP](https://modelcontextprotocol.io) server for job seekers. You save 
 
 **Status:** MVP (PRD 01, step 10 of 10). Single user, runs on your machine, stdio only.
 
-<!-- TODO: record docs/demo.gif, then show it here with: ![Demo](docs/demo.gif) -->
+![Demo: listing jobs, explaining a fit check, and skipping a job in Claude Desktop](docs/demo.gif)
 
 ## Quickstart
 
